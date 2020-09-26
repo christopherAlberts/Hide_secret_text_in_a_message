@@ -4,7 +4,7 @@
 
 * Download a Python IDE like Tonny: https://thonny.org/
 
-* Once Pycharm is installed open a new file and copy the following code into it:
+* Once Tonny is installed open a new file and copy the following code into it:
 
 ```python
 import requests
