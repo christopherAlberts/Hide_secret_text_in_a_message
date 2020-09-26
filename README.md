@@ -47,6 +47,8 @@ while True:
         print("Error: Input does not match")
         
  ```
+ 
+* Very Important! SAVE THE CODE otherwise it won't run! To do this click on "File" and then "Save all".
 
 * Now for this program to work you'll first need to install the `requests` package. To do this look for the "Search icon" (It should be top right). Search for the following : `project interpreter`. This should open your project's interpreter. Then click on the "+", search for `requests` and click "Install Package". Once the package is installed you should be good to go.
 
@@ -62,20 +64,63 @@ Encode or Decode:
 
 Here you can either write `encode` or `e` to encode a message. Or you could write `decode` or `d` to decode a message.
 
-For instance: 
+### How to Encode:
 
- ```
- Encode or Decode: encode
- ```
+Select the `encode` option:
+
+```
+Encode or Decode: encode
+```
+
+You'll then be propted to firstly enter your hidden message:
+
+```
+Enter hidden phrase: THIS IS MY HIDDEN MESSAGE
+```
+
+Following this you'll be prompted to fill in the public message, this is the message that everyone will be able to see.
+
+```
+Enter public phrase: THIS IS MY PUBLIC MESSAGE
+```
+
+Once you've entered the public phrase, press ENTER. You will then recieved the encoded text that contains the hidden message.
  
- You'll then be propted to firstly enter your hidden message:
+``` 
+Here is your encrypted message:
+###############################
+
+THIS IS MY PUBLIC MESSAGE
+
+###############################
+Encode or Decode: 
+```
+
+### How to Decode:
  
- ```
- Enter hidden phrase:
- 
- ```
- Following this you'll be prompted to 
- 
+Select the `decode` option:
+
+```
+Encode or Decode: decode
+```
+
+You'll then be propted to enter a phrase to decode: 
+
+```
+Enter phrase to decode: THIS IS MY PUBLIC MESSAGE
+```
+
+You will then recive your decoded message:
+
+```
+Here is your decrypted message:
+###############################
+
+THIS IS MY HIDDEN MESSAGE
+
+###############################
+Encode or Decode: 
+```
  
 
 # IF YOU CAN'T GET THE CODE TO WORK YOU CAN ALWAY'S JUST USE THE WEBSITE
