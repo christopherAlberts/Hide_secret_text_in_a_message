@@ -7,6 +7,7 @@
 * Once Tonny is installed open a new file and copy the following code into it:
 
 ```python
+
 import requests
 
 while True:
@@ -25,13 +26,22 @@ while True:
 
         result = result.content
         result = result.decode("utf-8")
+
+        print("Here is your encrypted message:")
+        print("###############################\n")
         print(result)
+        print("\n###############################")
 
     elif encodeOrDecoded == "Decode" or encodeOrDecoded == "decode" or encodeOrDecoded == "D" or encodeOrDecoded == "d":
 
         decodePhrase = input("Enter phrase to decode: ")
         result2 = requests.get('https://neatnik.net/steganographr/api?decode=' + decodePhrase)
+
+        print("Here is your decrypted message:")
+        print("###############################\n")
         print(result2.content.decode("utf-8"))
+        print("\n###############################")
+
 
     else:
         print("Error: Input does not match")
