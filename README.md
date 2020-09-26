@@ -2,7 +2,7 @@
 
 ## How to run the program:
 
-* Download a Python IDE like Pycharm: https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC
+* Download a Python IDE like Tonny: https://thonny.org/
 
 * Once Pycharm is installed open a new file and copy the following code into it:
 
@@ -38,7 +38,9 @@ while True:
         
  ```
 
-* Then right click on the file and selecr the GREEN "Run" arrow.
+* Then click on the the GREEN "Run" arrow to run the program.
+
+## How the program works
 
 
 Steganography_API_Handler
