@@ -2,9 +2,9 @@
 
 ## How to run the program:
 
-* Download a Python IDE like Tonny: https://thonny.org/
+* Download a Python IDE like Pycharm: https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC
 
-* Once Tonny is installed open a new file and copy the following code into it:
+* Once Pycharm is installed open a new file and copy the following code into it:
 
 ```python
 
@@ -48,7 +48,7 @@ while True:
         
  ```
 
-* Then click on the the GREEN "Run" arrow to run the program.
+* Then right click on the the file and select the GREEN "Run" arrow to run the program.
 
 ## How the program works
 
